@@ -6,27 +6,12 @@ public class MergeConflict
 	
 	public String nameMethod()
 	{
-<<<<<<< HEAD
 		
 	return name;
-=======
-		name = "Bob";
->>>>>>> master
 	}
 	
 	public int dataMethod()
 	{
-	} 
->>>>>>> master
-	
-	@Override
-	public String toString()
-	{
-		return name+data;
-	}
-}
-
-<<<<<<< HEAD
 		int result = 0;
 		for (int x=0; x<name.length(); x++)
 		{
@@ -37,4 +22,10 @@ public class MergeConflict
 		return result;
 	}
 
-=======
+	
+	@Override
+	public String toString()
+	{
+		return name+data;
+	}
+}
