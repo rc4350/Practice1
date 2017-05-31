@@ -9,7 +9,7 @@ public class MergeConflict
 		
 	}
 	
-	public int dataMethod()
+	public char dataMethod()
 	{
 		int result = 0;
 		for (int x=0; x<name.length(); x++)
@@ -19,6 +19,8 @@ public class MergeConflict
 		}
 		data = ++result % name.length();
 		return result;
+	}
+	    return result;
 	}
 	
 	@Override
