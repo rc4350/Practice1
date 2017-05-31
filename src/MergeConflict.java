@@ -14,8 +14,9 @@ public class MergeConflict
 >>>>>>> master
 	}
 	
-	public int dataMethod()
+	public void dataMethod()
 	{
+<<<<<<< HEAD
 		int result = 0;
 		for (int x=0; x<name.length(); x++)
 		{
@@ -26,6 +27,9 @@ public class MergeConflict
 		return result;
 	}
 
+=======
+	} 
+>>>>>>> master
 	
 	@Override
 	public String toString()
