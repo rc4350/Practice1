@@ -4,12 +4,13 @@ public class MergeConflict
 	int data;
 	String name;
 	
-	public void nameMethod()
+	public String nameMethod()
 	{
 		
+	return name;
 	}
 	
-	public char dataMethod()
+	public int dataMethod()
 	{
 		int result = 0;
 		for (int x=0; x<name.length(); x++)
@@ -20,8 +21,7 @@ public class MergeConflict
 		data = ++result % name.length();
 		return result;
 	}
-	    return result;
-	}
+
 	
 	@Override
 	public String toString()
