@@ -9,8 +9,11 @@ public class MergeConflict
 		name = "Bob";
 	}
 	
-	public void dataMethod()
+	public int dataMethod()
 	{
+		int x;
+		x = 2;
+		return 2;
 	} 
 	
 	@Override
