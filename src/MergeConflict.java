@@ -6,7 +6,7 @@ public class MergeConflict
 	
 	public void nameMethod()
 	{
-		
+		name = "Bob";
 	}
 	
 	public int dataMethod()
