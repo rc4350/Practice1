@@ -6,8 +6,12 @@ public class MergeConflict
 	
 	public String nameMethod()
 	{
+<<<<<<< HEAD
 		
 	return name;
+=======
+		name = "Bob";
+>>>>>>> master
 	}
 	
 	public int dataMethod()
