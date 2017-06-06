@@ -4,17 +4,15 @@ public class MergeConflict
 	int data;
 	String name;
 	
-	public String nameMethod()
+	public void nameMethod(String value)
 	{
 		
-	return name;
+	name =value.substring(1);
 	}
 	
 	public void dataMethod()
 	{
 	}
-
-	
 	@Override
 	public String toString()
 	{
